@@ -66,6 +66,6 @@
       "unitTestRunner": "jest"
     }
   },
-  "defaultProject": "my-org",
+  "defaultProject": "celeb-connect",
   "nxCloudAccessToken": "MDA1OGZjMzItNjZhZC00OWZlLWFmMzYtYzU0NzQzYWVkN2ZhfHJlYWQtd3JpdGU="
 }

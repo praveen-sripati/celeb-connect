@@ -15,13 +15,13 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Welcome my-org'
+      'Welcome celeb-connect'
     );
   });
 
-  it(`should have as title 'my-org'`, () => {
+  it(`should have as title 'celeb-connect'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('my-org');
+    expect(app.title).toEqual('celeb-connect');
   });
 });
