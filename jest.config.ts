@@ -4,6 +4,8 @@ export default {
   preset: './jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   coverageDirectory: './coverage/celeb-connect',
+  collectCoverage: true,
+  coverageReporters: ['html','json','text','lcov'],
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
