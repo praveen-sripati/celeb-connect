@@ -8,4 +8,10 @@ describe('AppComponent', () => {
       imports: [AppComponent, RouterTestingModule],
     }).compileComponents();
   });
+
+  it(`should have as title 'celeb-connect'`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('celeb-connect');
+  });
 });
