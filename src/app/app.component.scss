@@ -1,0 +1,17 @@
+$nav-height: 116px;
+
+:host {
+  @apply min-h-screen flex flex-col;
+}
+
+nav {
+  min-height: $nav-height;
+}
+
+main {
+  margin-top: $nav-height;
+}
+
+.content-creator-section {
+  height: calc(100vh - $nav-height);
+}
